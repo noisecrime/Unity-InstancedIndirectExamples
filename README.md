@@ -1,7 +1,5 @@
 # Unity-InstancedIndirectExamples
-Exploring Unity 5.6 InstanceIndirect Method to render large numbers of meshes.
-
-This is a Unity Project for Unity 5.6 ( at time of writing in beta )
+Exploring the Unity 5.6 ( beta ) DrawMeshInstanceIndirect method to render large numbers of meshes.
 
 
 InstancedIndirectExample
@@ -9,9 +7,9 @@ A slightly expanded version of the examples from https://docs.unity3d.com/560/Do
 
 Fixes a few shader and script issues ( see https://forum.unity3d.com/threads/drawmeshinstancedindirect-example-comments-and-questions.446080/) as well as providing the actual Unity project with some important set up such as;
 
-Shadows disabled on directional light - you can enable them, but it will naturally affect performance.
-Shadow Quality changed to 'No Cascades' since each cascade requires rendering the instances again, thus affecting performance.
-Camera set to 'Deferred' Rendering mode so multiple lights do not result in additional passes.
+ - Shadows disabled on directional light - you can enable them, but it will naturally affect performance.
+ - Shadow Quality changed to 'No Cascades' since each cascade requires rendering the instances again, thus affecting performance.
+ - Camera set to 'Deferred' Rendering mode so multiple lights do not result in additional passes.
 
 
 
