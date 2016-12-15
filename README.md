@@ -1,8 +1,7 @@
 # Unity-InstancedIndirectExamples
 Exploring the Unity 5.6 ( beta ) DrawMeshInstanceIndirect method to render large numbers of meshes.
 
-
-InstancedIndirectExample
+__ InstancedIndirectExample
 
 A slightly expanded version of the examples from https://docs.unity3d.com/560/Documentation/ScriptReference/Graphics.DrawMeshInstancedIndirect.html
 
@@ -14,7 +13,7 @@ Fixes a few shader and script issues ( see https://forum.unity3d.com/threads/dra
 
 
 
-InstancedIndirectSelectionExample
+__ InstancedIndirectSelectionExample
 
 This is a quick and dirty proof of concept to an anwser I made in this thread
 https://forum.unity3d.com/threads/most-efficient-way-to-display-large-scatter-plots.403702/#post-2885620
