@@ -29,4 +29,6 @@ It turned out a little more tricky than that, but as a proof-of-concept it appea
 
 Minimal testing and checking has been performed, but it appears to return correct ID's with the few simple tests I made. Personally I'd want to test it further before relying on it, by which I mean the concpet works, just not 100% sure it always gives the correct ID's.
 
+However the process requires rendering all the instances to a renderTexture upon a mouseclick. If you are already rendering say 1,000,000 and getting 50 fps, then for that frame you are going to drop to 25-30fps. If the scene is static, its unlikely users will notice. If the scene is moving ( as it does in the demo ) then you will notice a 1 frame performance drop. 
 
+The performance drop when clicking is expected and the point isn't to have the fastest picking/selection system, but the easiest and quickest to integrate system. Especially in this case as the positions of the objects are determined by the shader code and not on the cpu.
